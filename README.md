@@ -13,3 +13,4 @@ curl -vk -X POST -d'{"accountid":1,"amount":5000,"employeeid":1,"transactiontype
 curl -vk -X POST -d'{"accountid":1, "name":"chandra","age":23,"active":false,"details":"sdasdas","address":"wewe","contact":"32wff","salary":1234}'  'http://localhost:8080/employees'
 
 
+curl -vk -X POST -d'{"username":"chandra","password":"Vemulapadu"}'  'http://localhost:8080/SignUp'

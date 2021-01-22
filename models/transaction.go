@@ -7,7 +7,7 @@ type Transaction struct {
   AccountId uint `json:"accountid" `
   EmployeeId uint `json:"employeeid" `
   Merchant string `json:"merchant"`
-  amount float32 `json:"amount"`
+  Amount float32 `json:"amount"`
   IsSuccess bool `json:"issuccess"`
   TransactionTime time.Time `json:"transactiontime"`
   TransactionType string `json:"transactiontype"`

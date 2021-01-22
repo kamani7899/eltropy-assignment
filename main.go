@@ -1,10 +1,10 @@
 package main
 
 import (
-  
   "github.com/gin-gonic/gin"
   "eltropy-assignment/models"
   "eltropy-assignment/controllers"
+
 )
 
 
@@ -13,19 +13,20 @@ func main() {
 
   models.ConnectDataBase() // new
 
-  // r.GET("/books", controllers.FindBooks)
   
-  // r.POST("/books", controllers.CreateBook)
-
-  // r.DELETE("/books/:id", controllers.DeleteBook)
-
-  // r.PATCH("/books/:id", controllers.UpdateBook)
-
-  // r.GET("/books/:id", controllers.FindBook)
 
   r.POST("/customers", controllers.CreateCustomer)
 
   r.POST("/accounts", controllers.CreateAccount)
+
+  r.POST("/employees", controllers.CreateEmployee)
+
+  r.POST("/transactions", controllers.CreateTransaction)
+
+
+  r.POST("/signup", controllers.SignUp)
+
+  r.POST("/signin", controllers.SignIn)
 
   r.Run()
 }
