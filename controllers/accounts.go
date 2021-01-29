@@ -26,7 +26,7 @@ func CreateAccount(c *gin.Context) {
 		return
 	}
 
-	fmt.Println("input", input)
+	
 
 	currentTime := time.Now()
 	

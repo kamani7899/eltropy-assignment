@@ -22,6 +22,7 @@ func ConnectDataBase() {
   db.AutoMigrate(&Customer{})
   db.AutoMigrate(&Employee{})
   db.AutoMigrate(&Transaction{})
+  db.AutoMigrate(&User{})
 
   DB = db
 

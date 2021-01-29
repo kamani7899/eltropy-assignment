@@ -1,3 +1,5 @@
+#daatabse script for tables using postgresql
+
 CREATE TABLE customers( id SERIAL PRIMARY KEY,  NAME  varchar(50) NOT NULL, AGE   INT  NOT NULL, ADDRESS  varchar(50),contact  varchar(50), created timestamp, active boolean, KYC varchar(30) not null);
 
 
