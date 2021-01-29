@@ -36,21 +36,21 @@ npm install -g redis-cli
 ## connect to redis using redis cli
 rdcli
 
-# Documentation
+
 
 ## Project Structure
 	
-	* models corresponding to databse table are in models folder
+	models corresponding to databse table are in models folder
 
-	* Business logic for handling each table is written in controllers folder
+	Business logic for handling each table is written in controllers folder
 
-	* func main in main.go is the starting point for execution
+	func main in main.go is the starting point for execution
 
-## Relied on https://github.com/go-gorm/gorm for orm purposes
+	Relied on https://github.com/go-gorm/gorm for orm purposes
 
-## Refer to tables.sql for databse script
+	Refer to tables.sql for databse script
 
-## Relied on  Redis for storing tokens
+	 Relied on  Redis for storing tokens
 
-## Used [gin routing server](https://github.com/gin-gonic/gin) for routing purpose
+	Used [gin routing server](https://github.com/gin-gonic/gin) for routing purpose
  
